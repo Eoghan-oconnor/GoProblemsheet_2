@@ -13,7 +13,7 @@ import(
 func requestHandler(w http.ResponseWriter, r *http.Request){
 	w.Header().Set("Content-Type", "text/html")// makes browser render all html tags 
 
-	fmt.Fprintf(w,"<h1>Guessing Game</h1>")
+	fmt.Fprintf(w,"<h1>Guessing Game</h1>")//outputting to browser 
 	
 }
 
